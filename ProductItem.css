@@ -1,0 +1,44 @@
+/* ProductItem.css */
+.product-item {
+    width: 200px; /* Adjust width as needed */
+    border: 1px solid #e0e0e0;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .product-item p {
+    color: #666;
+  }
+  /* ProductItem.css */
+.product-item {
+  /* Các thuộc tính CSS khác */
+  border-radius: 10px; /* Bo góc với bán kính 10px */
+  overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài góc bo tròn */
+  /* Thêm box-shadow để tạo hiệu ứng nổi bật nếu bạn thích */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tùy chỉnh theo nhu cầu */
+}
+
+.product-item img {
+  width: 100%; /* Đảm bảo hình ảnh co giãn đúng cách */
+  border-radius: 10px; /* Bo góc cho hình ảnh nếu cần */
+  /* Có thể cần thêm 'object-fit' nếu muốn hình ảnh phủ đầy không gian mà không bị méo */
+  object-fit: cover; /* hoặc 'contain' tuỳ vào cách bạn muốn hình ảnh hiển thị */
+}
+
+/* ProductItem.css */
+.product-item img {
+  width: 300px; /* Thay đổi kích thước rộng theo nhu cầu của bạn */
+  height: 300px; /* Thay đổi kích thước cao theo nhu cầu của bạn */
+  object-fit: cover; /* Điều này sẽ cắt và phủ đầy kích thước đã đặt mà không làm méo ảnh */
+}

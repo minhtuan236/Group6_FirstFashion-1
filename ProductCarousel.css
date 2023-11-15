@@ -1,0 +1,78 @@
+/* ProductCarousel.css */
+.product-carousel {
+  margin: 20px 0;
+}
+
+.product-carousel h2 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.see-all-button {
+  text-align: right;
+  padding-right: 20px;
+  margin-top: -30px; /* Adjust this value so that it looks good with your layout */
+}
+
+.see-all-button button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.see-all-button button:hover {
+  background-color: #333;
+}
+
+/* Thêm kiểu cho các mũi tên tùy chỉnh */
+.custom-slick-prev,
+.custom-slick-next {
+  z-index: 50;
+  opacity: 1;
+  height: 20px; /* Hoặc chiều cao tùy chỉnh */
+  width: 20px; /* Hoặc chiều rộng tùy chỉnh */
+  color: black; /* Hoặc màu tùy chỉnh */
+}
+
+.custom-slick-prev {
+  left: -25px; /* Điều chỉnh theo nhu cầu */
+  background: green; /* Màu nền tùy chỉnh */
+}
+
+.custom-slick-next {
+  right: -25px; /* Điều chỉnh theo nhu cầu */
+  background: red; /* Màu nền tùy chỉnh */
+}
+
+/* Đảm bảo nút mũi tên có thể nhìn thấy và nằm đúng vị trí */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px; /* Tăng kích thước để dễ nhận biết */
+  color: black; /* Thay đổi màu để chúng hiển thị rõ ràng hơn */
+}
+/* ProductCarousel.css */
+
+/* Thêm kiểu cho nút 'See All' */
+.see-all-link {
+  display: inline-block; /* hoặc 'block' nếu bạn muốn nó chiếm một dòng riêng */
+  margin-left: auto; /* Đẩy nút về phải */
+  padding: 8px 16px; /* Đệm cho nút */
+  border: 6px solid #fff; /* Viền nút */
+  border-radius: 15px; /* Bo góc */
+  background-color: black; /* Màu nền đen */
+  color: white; /* Màu chữ trắng */
+  text-decoration: none; /* Bỏ gạch chân cho liên kết */
+  font-weight: bold; /* Đặt chữ đậm */
+  cursor: pointer; /* Cho biết có thể click */
+  transition: background-color 0.3s ease; /* Chuyển đổi màu nền mượt mà */
+}
+
+.see-all-link:hover {
+  background-color: #333; /* Màu nền khi hover */
+}
+.see-all-wrapper {
+  text-align: right; /* Đẩy nút về phía bên phải */
+  padding-right: 10px; /* Thêm padding để không sát cạnh */
+}
