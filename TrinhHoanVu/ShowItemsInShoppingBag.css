@@ -1,0 +1,54 @@
+/* ShowItemsInShoppingBag.css */
+
+.shoppingbag {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    text-align: left;
+}
+
+.name-product {
+    font-size: 100%;
+    font-family: 'couture';
+    vertical-align: text-top;
+}
+
+.showproduct {
+    font-family: 'lato-regular';
+    text-align: left;
+    margin-left: 30px;
+    /* Adjust margin as needed */
+}
+
+.img-div {
+    width: 20%;
+}
+.quantity-box{
+    width: 60%;
+}
+
+.name-div{
+    width: 50%;
+    text-align: left;
+}
+
+.removebutton-on-shoppingbag{
+    background-color: transparent;
+    border: none;
+    font-size: 80%;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.quantity-select-box{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 60px;
+}

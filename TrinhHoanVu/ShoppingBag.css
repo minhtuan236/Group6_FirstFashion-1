@@ -1,0 +1,27 @@
+.shoppingbag-background{
+    background-color: white;
+}
+
+.shoppingbag-background::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shoppingbag-div{
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: cyan; */
+}
+
+.shoppingbag-title{
+    font-family: 'couture';
+    font-size: 200%;
+    color: black;
+    letter-spacing: 10px;
+}
+
+.shoppingbag-text{
+    font-family: 'lato-regular';
+    color: black;
+}
